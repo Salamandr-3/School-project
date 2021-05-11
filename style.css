@@ -1,0 +1,148 @@
+.b {
+  width: 80px;
+}
+.reg {
+  position: absolute;
+  margin-top: -8%;
+  margin-left: 80%;
+}
+.reg_1 {
+  position: absolute;
+  margin-top: -10%;
+  margin-left: 80%;
+}
+.but {
+  font-size: 150%;
+  color: white;
+  text-decoration: none;
+  height: 40px;
+  width: 250px;
+  border: none;
+  background-color: #4a90e2;
+}
+.butt {
+  font-size: 150%;
+  color: white;
+  text-decoration: none;
+  margin-top: 1%;
+  height: 40px;
+  width: 250px;
+  border: none;
+  background-color: #4a90e2;
+}
+.factor {
+  margin-left: 15%;
+}
+.inp {
+  width: 50px;
+}
+.h2 {
+  display: inline-block;
+}
+.cnt {
+  position: absolute;
+}
+.h1 {
+  text-align: center;
+  color: #0296d1;
+}
+.bt {
+  display: inline-block;
+  margin: 40px 600px auto 15%;
+  color: #0296d1;
+}
+* {
+   box-sizing: border-box;
+}
+body {
+   background: #e6f4fd;
+   font-family: 'Roboto', sans-serif;
+}
+.ui-form {
+   max-width: 500px;
+   padding: 120px 50px 100px;
+   margin: 50px auto 30px;
+   background: white;
+}
+.ui-form h3 {
+   position: relative;
+   z-index: 5;
+   margin: 0 0 60px;
+   text-align: center;
+   color: #4a90e2;
+   font-size: 30px;
+   font-weight: normal;
+}
+.ui-form h3:before {
+   content: "";
+   position: absolute;
+   z-index: -1;
+   left: 60px;
+   top: -30px;
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   background: #fee8e4;
+}
+.ui-form h3:after {
+   content: "";
+   position: absolute;
+   z-index: -1;
+   right: 60px;
+   top: -40px;
+   width: 0;
+   height: 0;
+   border-left: 55px solid transparent;
+   border-right: 55px solid transparent;
+   border-bottom: 90px solid #ffe3b5;
+}
+.form-row {
+   position: relative;
+   margin-bottom: 40px;
+}
+.form-row input {
+   display: block;
+   width: 100%;
+   padding: 0 10px;
+   line-height: 40px;
+   font-family: 'Roboto', sans-serif;
+   background: none;
+   border-width: 0;
+   border-bottom: 2px solid #4a90e2;
+   transition: all 0.2s ease;
+}
+.form-row label {
+   position: absolute;
+   left: 13px;
+   color: #9d959d;
+   font-size: 20px;
+   font-weight: 300;
+   transform: translateY(-35px);
+   transition: all 0.2s ease;
+}
+.form-row input:focus {
+   outline: 0;
+   border-color: #F77A52;
+}
+.form-row input:focus+label, .form-row input:valid+label {
+   transform: translateY(-60px);
+   margin-left: -14px;
+   font-size: 14px;
+   font-weight: 400;
+   outline: 0;
+   border-color: #F77A52;
+   color: #F77A52;
+}
+.ui-form input[type="submit"] {
+   width: 100%;
+   padding: 0;
+   line-height: 42px;
+   background: #4a90e2;
+   border-width: 0;
+   color: white;
+   font-size: 20px;
+}
+.ui-form p {
+   margin: 0;
+   padding-top: 10px;
+}
