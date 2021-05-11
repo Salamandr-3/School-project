@@ -1,2 +1,2 @@
-# School-project
-My and my friend Denis's project to great Shalimov
+# Школьный проект
+Все файлы, использующиеся в проекте
